@@ -1,0 +1,134 @@
+.studentsContainer{
+    display: flex;
+    padding: 50px 8% 0 8%;
+    overflow-y: hidden;
+    height: 100vh;
+}
+
+.updateStudents{
+    width: 280px;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.studentsData{
+   
+}
+
+.studentsCard{
+    width: 250px;
+    height: 180px;
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 10px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+    position: relative;
+}
+
+.studentsCard span{
+    font-weight: bold;
+}
+
+.grades{
+    display: flex;
+    flex-direction: column;
+}
+
+.grade{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.grades input {
+    width : 50%;
+    height : 20px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.frequency{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    color: rgb(34, 33, 33);
+    margin-top: 20px ;
+}
+
+.studentsCard button{
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: black;
+    color: white;
+    padding: 10px;
+    transition: 0.5s;
+    width: 100%
+}
+
+
+.studentsCard button:hover{
+    background: purple;
+    
+}
+
+.modal-open{
+    opacity: 0.6;
+    pointer-events: none;
+    
+}
+
+.modal{
+    display: flex;
+    flex-direction:  column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    z-index: 999;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+    border: 1px solid black;
+    left: 50%;
+    padding: 15px;
+    color: white;
+    background-color: rgb(58, 57, 57) 
+}
+
+.modal form{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.modal h2{
+    margin: 10px;
+}
+
+.modal button{
+    background: white;
+    font-size: 16px;
+    padding: 10px;
+    transition: 0.5s;
+    color: black
+}
+
+.modal button:hover{
+    background: purple;
+}
+
+.modal span{ 
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    cursor: pointer
+}
+
+.deleteButton{
+    position: absolute;
+    right: 5px;
+    cursor: pointer;
+    color: red;
+}

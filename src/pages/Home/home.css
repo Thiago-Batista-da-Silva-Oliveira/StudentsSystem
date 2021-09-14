@@ -1,0 +1,48 @@
+.homeContainer{
+    height: 100vh;
+    /*margin-left:10%;
+    padding-right:10%;*/
+    width: 100%;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 100%;
+} 
+
+.addCart{
+    height: 250px;
+    padding: 20px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.addCartInfo{
+    display : flex;
+    flex-direction: column;
+}
+
+.addCartInfo input{
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.addCartInfo button{
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: black;
+    color: white;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.addCartInfo button:hover{
+    background: purple;
+    
+}
